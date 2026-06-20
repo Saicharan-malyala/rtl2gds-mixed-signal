@@ -1,0 +1,18 @@
+{
+  "DESIGN_NAME": "design_mux",
+  "VERILOG_FILES": ["dir::src/design_mux.v", "dir::src/AMUX2_3V.v"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10,
+  "FP_CORE_UTIL": 25,
+  "PL_TARGET_DENSITY": 0.45,
+  "PL_MACRO_HALO": "10 10",
+  "PL_MACRO_CHANNEL": "10 10",
+  "EXTRA_LEFS": "dir::lef/AMUX2_3V.lef",
+  "EXTRA_LIBS": "dir::lib/AMUX2_3V.lib",
+  "EXTRA_GDS_FILES": ["dir::gds/AMUX2_3V.gds"],
+  "QUIT_ON_LINTER_ERRORS": false,
+  "MAGIC_INCLUDE_GDS_POINTERS": true,
+  "RUN_LVS": false,
+  "pdk": "sky130A",
+  "scl": "sky130_fd_sc_hd"
+}
